@@ -93,6 +93,7 @@ tags:
 - **ReAct** - Interleaves generated reasoning with actions that query external information or interact with an environment. Studies how observations can update task plans instead of relying only on an uninterrupted text completion. [Yao et al. 2023](<https://arxiv.org/abs/2210.03629> "ReAct: Synergizing Reasoning and Acting in Language Models; ICLR").
 - **Speculative decoding** - A smaller model drafts tokens that the target model verifies in parallel. A sampling correction preserves the target distribution; speed depends on draft cost and acceptance. [Leviathan et al. 2023](<https://arxiv.org/abs/2211.17192> "Fast Inference from Transformers via Speculative Decoding; ICML").
 - **Process supervision** - Trains reward models from human judgments of individual solution steps rather than only final answers; introduces PRM800K for studying process supervision in mathematical reasoning. [Lightman et al. 2023](<https://arxiv.org/abs/2305.20050> "Let&#x27;s Verify Step by Step; arXiv").
+- **Recurrent-depth language models** - Repeat shared layers to refine hidden states before producing tokens. See [recurrent depth and adaptive computation](https://mlpapers.org/neural-nets/#recurrent-depth-and-adaptive-computation) for architectures and evidence.
 
 ## Optimizing language-model programs
 
